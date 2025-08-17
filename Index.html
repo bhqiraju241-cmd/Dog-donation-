@@ -1,2 +1,35 @@
 # Dog-donation-
 Donation website for dogs 🐕 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Donation</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background: #fefefe; }
+    header { background: #ffcc00; padding: 20px; font-size: 24px; font-weight: bold; }
+    section { margin: 20px; }
+    .donate-btn { background: #28a745; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 18px; cursor: pointer; }
+    .donate-btn:hover { background: #218838; }
+  </style>
+</head>
+<body>
+  <header>🐶 Support Homeless Dogs 🐾</header>
+
+  <section>
+    <h2>Why Donate?</h2>
+    <p>Your small help can give food, shelter, and love to stray dogs ❤️</p>
+  </section>
+
+  <section>
+    <h2>Donate via UPI</h2>
+    <p>Click below button to donate directly:</p>
+    <button class="donate-btn" onclick="window.location.href='upi://pay?pa=YOUR-UPI-ID&pn=DogDonation&cu=INR'">
+      Donate Now
+    </button>
+  </section>
+
+  <footer style="margin-top:40px;">© 2025 Dog Donation</footer>
+</body>
+</html>
